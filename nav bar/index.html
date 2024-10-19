@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Nav Bar</title>
-</head>
-<body>
-    <div id="main">
-        <nav>
-            <div class="logo">
-               <p>NavBar</p>
-            </div>
-            <div>
-                <h2>Home</h2>
-                <h2>Service</h2>
-                <h2>Contact</h2>
-                <h2>About</h2>
-                <h2>Blog</h2>
-            </div>
-        </nav>
-    </div>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"/>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" name="" id="check" value="">
+        <label class="logo" for="check">NavBar</label>
+        <label for="check" id="menu"><i class="ri-menu-3-line"></i></label>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Service</a></li>
+            
+        </ul>
+
+        
+        
+    </nav>
+  </body>
+
+
+  <script src="script.js"></script>
 </html>
